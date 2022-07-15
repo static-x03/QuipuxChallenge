@@ -23,7 +23,7 @@ public class MapStructureImpl implements MapStructure {
 		dto.setId(playList.getId());
 		dto.setNombre(playList.getNombre());
 		dto.setDescripcion(playList.getDescripcion());
-		dto.setSongs(songSetToSongDtoSet(playList.getSongs()));
+		dto.setCanciones(songSetToSongDtoSet(playList.getCanciones()));
 		return dto;
 	}
 
@@ -52,7 +52,7 @@ public class MapStructureImpl implements MapStructure {
 		playList.setId(playListDto.getId());
 		playList.setNombre(playListDto.getNombre());
 		playList.setDescripcion(playListDto.getDescripcion());
-		playList.setSongs(songSetDtoToSongSet(playListDto.getSongs()));
+		playList.setCanciones(songSetDtoToSongSet(playListDto.getCanciones()));
 		return playList;
 	}
 
