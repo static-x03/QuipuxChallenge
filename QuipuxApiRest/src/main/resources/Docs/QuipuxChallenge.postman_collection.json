@@ -28,7 +28,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"nombre\": \"playList1\",\r\n    \"descripcion\": \"Lista de canciones de Spotify\",\r\n    \"songs\": [\r\n        {\r\n            \"titulo\": \"cancion de amor\",\r\n            \"artista\": \"Jc \",\r\n            \"album\": \"nuevo milenio\",\r\n            \"anno\": \"1992\"\r\n        }\r\n    ]\r\n}",
+					"raw": "{\r\n    \"nombre\": \"playList1\",\r\n    \"descripcion\": \"Lista de canciones de Spotify\",\r\n    \"canciones\": [\r\n        {\r\n            \"titulo\": \"cancion de amor\",\r\n            \"artista\": \"Jc \",\r\n            \"album\": \"nuevo milenio\",\r\n            \"anno\": \"1992\"\r\n        }\r\n    ]\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
