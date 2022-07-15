@@ -37,7 +37,7 @@ public class PlayList {
 	private String descripcion;
 	@OneToMany(targetEntity = Song.class,cascade = CascadeType.ALL)
 	@JoinColumn(name = "ps", referencedColumnName = "id")
-	private List<Song>songs;
+	private List<Song>canciones;
 	
 
 }
